@@ -1,5 +1,6 @@
 #include<stdio.h>
+#define helloWorld printf
 int main(){
-    printf("Hello Git");
+    helloWorld("printf");
     return 0;
 }
